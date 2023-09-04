@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,*:before,*:after{
+  box-sizing: border-box;
+}
+body {
+  @apply text-gray font-main;
+
+}
+
+.container {
+  padding: 0 theme('spacing.space-s');
+  margin: 0 auto;
+}
+
+
+.button-accent {
+  text-transform: none !important;
+  align-items: center;
+  background-color: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.85);
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  padding: 9px 14px;
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: 100%;
+}
+
+.button-accent:hover,
+.button-accent:focus {
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.button-accent:hover {
+  transform: translateY(-1px);
+}
+
+.button-accent:active {
+  background-color: #F0F0F1;
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  color: rgba(0, 0, 0, 0.65);
+  transform: translateY(0);
+}
+
+.productSliderPrev, .productSliderNext {
+  &:disabled {
+
+  }
+}
+
+.productSliderPagination {
+  span {
+    @apply bg-accent;
+    left: 0;
+    top: 0;
+    display: block;
+    min-height: 5px;
+    width: 100%;
+  }
+}
+
+.baseInput {
+  @apply border border-accent-500 block w-[100%] text-[18px] leading-[1.5] min-h-[30px] px-[5px] py-[5px];
+
+}
+
+button{
+  font: inherit !important;
+}

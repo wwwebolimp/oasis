@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="12fa2739-6cde-4193-9938-6b881061c66c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/postcss.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/23092aca-d145-4c7f-af5c-c2463fd9ecdc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/304dcb2f-499e-489e-bf3a-7ab637408d10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/61eb08e8-695c-4041-9a5a-08857055fb08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/65951dd8-34df-436a-902e-09a6651225ea.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/af9a6de1-0dc2-4c1f-b1e6-3f0b816661ce.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/b5a881cf-334d-4e13-9dda-c9f823de176a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/fa177e73-ff87-4a83-abcd-4ce20227936f.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/fdb50352-3ca3-4265-9b2a-83626a95cc52.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/AddToCartButton.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Cart.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/CartContext.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ProductCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/mogodb.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/mongoose.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/Order.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/Product.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/admin/create.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/admin/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/api/auth/[...nextauth].ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/api/order/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/api/product/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/cart.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/neworder.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/p/[...id].tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/thanks.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/providers/CartProvider.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/providers/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/order/order.api.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/product/product.api.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/globals.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/types/IOrder.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/types/IProduct.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/getflora-admin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/oasis.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/_app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/_app.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/_document.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/_document.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/api/hello.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/Home.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/globals.css" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2R0zXBPoeX7gDRoeIf7hjB6hj43" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\WebOlimp\\projects\\oasis\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\WebOlimp\projects\oasis\src\components" />
+      <recent name="D:\WebOlimp\projects\oasis\src\pages\api\products" />
+      <recent name="D:\WebOlimp\projects\oasis\src\pages\api" />
+    </key>
+    <key name="es6.move.members.recent.items">
+      <recent name="D:\WebOlimp\projects\oasis\src\pages\p\swiperNavButtons.tsx" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.build">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.build" />
+        <item itemvalue="npm.dev" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="12fa2739-6cde-4193-9938-6b881061c66c" name="Changes" comment="" />
+      <created>1686401828844</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1686401828844</updated>
+      <workItem from="1686401830523" duration="2543000" />
+      <workItem from="1686466232168" duration="15404000" />
+      <workItem from="1686636929534" duration="2678000" />
+      <workItem from="1686647825896" duration="16000" />
+      <workItem from="1686667523138" duration="796000" />
+      <workItem from="1686674417299" duration="4529000" />
+      <workItem from="1686767546206" duration="3165000" />
+      <workItem from="1686778950425" duration="749000" />
+      <workItem from="1686779725047" duration="1264000" />
+      <workItem from="1686938509080" duration="5892000" />
+      <workItem from="1687264176609" duration="4847000" />
+      <workItem from="1687277623169" duration="2000" />
+      <workItem from="1687348198155" duration="686000" />
+      <workItem from="1687679092274" duration="2461000" />
+      <workItem from="1687691021769" duration="1971000" />
+      <workItem from="1687765374508" duration="335000" />
+      <workItem from="1687766285382" duration="1623000" />
+      <workItem from="1687862448059" duration="532000" />
+      <workItem from="1687863008794" duration="2721000" />
+      <workItem from="1687987929874" duration="11000" />
+      <workItem from="1688124141765" duration="84000" />
+      <workItem from="1688207535293" duration="1071000" />
+      <workItem from="1688468826347" duration="1201000" />
+      <workItem from="1688653565488" duration="599000" />
+      <workItem from="1688726164814" duration="6000" />
+      <workItem from="1692172371569" duration="1083000" />
+      <workItem from="1692210792337" duration="6000" />
+      <workItem from="1692274161148" duration="158000" />
+      <workItem from="1692643564042" duration="2849000" />
+      <workItem from="1692656810840" duration="1295000" />
+      <workItem from="1692735009304" duration="1456000" />
+      <workItem from="1692736477401" duration="3585000" />
+      <workItem from="1692741136244" duration="1579000" />
+      <workItem from="1692785803614" duration="9000" />
+      <workItem from="1692825670521" duration="3402000" />
+      <workItem from="1692951680244" duration="1160000" />
+      <workItem from="1692953119852" duration="17127000" />
+      <workItem from="1692996467455" duration="2073000" />
+      <workItem from="1693042080911" duration="28000" />
+      <workItem from="1693043670374" duration="6501000" />
+      <workItem from="1693140851875" duration="2939000" />
+      <workItem from="1693222933417" duration="14975000" />
+      <workItem from="1693252757722" duration="6851000" />
+      <workItem from="1693334697755" duration="4410000" />
+      <workItem from="1693344701591" duration="31000" />
+      <workItem from="1693425187470" duration="1843000" />
+      <workItem from="1693427057453" duration="5029000" />
+      <workItem from="1693478357331" duration="3836000" />
+      <workItem from="1693487106727" duration="7307000" />
+      <workItem from="1693510951000" duration="2842000" />
+      <workItem from="1693551708871" duration="984000" />
+      <workItem from="1693554289101" duration="12026000" />
+      <workItem from="1693575326866" duration="2881000" />
+      <workItem from="1693582748644" duration="6221000" />
+      <workItem from="1693652656326" duration="12267000" />
+      <workItem from="1693676463791" duration="871000" />
+      <workItem from="1693742887735" duration="1394000" />
+      <workItem from="1693747461412" duration="10000" />
+      <workItem from="1693766620031" duration="3457000" />
+      <workItem from="1693811587588" duration="8937000" />
+      <workItem from="1693855471067" duration="3784000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
